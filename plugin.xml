@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="rainforest-cordova-plugin" version="0.1.1">
+    <name>Rainforest QA</name>
+    <description>Rainforest QA Cordova Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,rainforest</keywords>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="RainforestPlugin">
+                <param name="ios-package" value="RainforestPlugin"/>
+                <param name="onload" value="true" />
+            </feature>
+            <plugin name="RainforestPlugin" value="RainforestPlugin"/>
+        </config-file>
+        <header-file src="src/ios/RainforestPlugin.h" />
+        <source-file src="src/ios/RainforestPlugin.m" />
+
+        <framework src="src/ios/Rainforest.framework" custom="true" embed="true"/>
+
+        <hook type="after_build" src="src/hooks/addEmbedded.js" />
+    </platform>
+</plugin>

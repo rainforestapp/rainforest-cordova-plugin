@@ -1,0 +1,6 @@
+framework module Rainforest {
+  umbrella header "Rainforest.h"
+
+  export *
+  module * { export * }
+}
