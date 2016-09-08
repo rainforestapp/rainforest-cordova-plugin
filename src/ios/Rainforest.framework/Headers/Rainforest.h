@@ -6,7 +6,11 @@
 //  Copyright © 2015 Rainforest. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "VNCEvent.h"
+#import "VNCEventMessage.h"
+#import "RainforestSDK.h"
+
+@import Foundation;
 
 @class UIImage;
 

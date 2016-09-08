@@ -6,7 +6,7 @@
 //  Copyright © 2015 Rainforest. All rights reserved.
 //
 
-//#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for Rainforest.
 FOUNDATION_EXPORT double RainforestVersionNumber;
@@ -15,7 +15,3 @@ FOUNDATION_EXPORT double RainforestVersionNumber;
 FOUNDATION_EXPORT const unsigned char RainforestVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Rainforest/PublicHeader.h>
-
-#import "VNCEvent.h"
-#import "VNCEventMessage.h"
-#import "Rainforest.h"
