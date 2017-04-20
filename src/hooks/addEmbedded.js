@@ -91,7 +91,7 @@ module.exports = function(context) {
 
     const projectName = myProj.getFirstTarget().firstTarget.name.replace(/^["]+|["]+$/g, '');
     const groupName = 'Embed Frameworks ' + context.opts.plugin.id;
-    const pluginPathInPlatformIosDir = projectName + '/plugins/' + context.opts.plugin.id;
+    const pluginPathInPlatformIosDir = projectName + '/Plugins/' + context.opts.plugin.id;
 
     process.chdir('./platforms/ios');
     const frameworkFilesToEmbed = fromDir(pluginPathInPlatformIosDir ,'.framework', false, true);
