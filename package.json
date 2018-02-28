@@ -1,0 +1,27 @@
+{
+  "name": "rainforest-cordova-plugin",
+  "version": "1.1.4",
+  "description": "Rainforest QA Cordova Plugin",
+  "cordova": {
+    "id": "rainforest-cordova-plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainforestapp/rainforest-cordova-plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "rainforest",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Rainforest QA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainforestapp/rainforest-cordova-plugin/issues"
+  },
+  "homepage": "https://github.com/rainforestapp/rainforest-cordova-plugin#readme"
+}
